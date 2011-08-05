@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Nicholas' Adventures: Blog Archive</title>
+  <title>Nicholas' Adventures: Installing Sun (Oracle) Java 6 JRE/JDK on Ubuntu 11</title>
   <meta name="author" content="Nicholas Cancelliere">
   
 
@@ -16,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="http://www.ozmox.com/blog/archives/index.html"/>
+  <link rel="canonical" href="http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -94,82 +94,99 @@
   <div id="main">
     <div id="content">
       <div>
-<article>
+<article class="hentry">
+  
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Installing Sun (Oracle) Java 6 JRE/JDK on Ubuntu 11</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2011-04-30 22:15:00 -0500" pubdate  updated >Apr 30<span>th</span>, 2011</time>
+
+
+</p>
     
   </header>
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>In Ubuntu 11 it&#8217;s really easy to install Sun&#8217;s version of Java JDK (or JRE). Why would you want to do this?  Well, personally, I have found that the OpenJDK doesn&#8217;t always work quite exactly right with a lot of Java programs, so I prefer to use the Sun JDK (I guess it&#8217;s Oracle now).</p>
 
-  
-  <h2>2011</h2>
+<p>To install simply do the following from your console:</p>
 
-<article>
-  
-<h1><a href="/blog/2011/08/04/pardon-the-dust/">Pardon the Dust</a></h1>
-<time datetime="2011-08-04 22:27:00 -0500" pubdate><span class='month'>Aug</span> <span class='day'>04</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/blog/'>blog</a></span>
-</footer>
+<pre>
+sudo add-apt-repository ppa:ferramroberto/java
+sudo apt-get update
+sudo apt-get install sun-java6-jdk sun-java6-jre
+sudo update-alternatives --config java
+</pre>
 
 
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/">Installing Sun (Oracle) Java 6 JRE/JDK on Ubuntu 11</a></h1>
-<time datetime="2011-04-30 22:15:00 -0500" pubdate><span class='month'>Apr</span> <span class='day'>30</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/linux-os/'>linux-os</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2010</h2>
-
-<article>
-  
-<h1><a href="/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/">Blurry Fonts on External Monitor With MacBook Pro</a></h1>
-<time datetime="2010-08-29 22:21:00 -0500" pubdate><span class='month'>Aug</span> <span class='day'>29</span> <span class='year'>2010</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/macos-x/'>macos-x</a>, <a class='category' href='/blog/categories/video/'>video</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2009</h2>
-
-<article>
-  
-<h1><a href="/blog/2009/11/15/nokogiri---cut-with-precision/">Nokogiri - Cut With Precision</a></h1>
-<time datetime="2009-11-15 22:25:00 -0600" pubdate><span class='month'>Nov</span> <span class='day'>15</span> <span class='year'>2009</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/activeresource/'>activeresource</a>, <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/xml/'>xml</a></span>
-</footer>
-
-
-</article>
-
+<p>Then you&#8217;ll want to pick the Sun version of Java.  Now you&#8217;ll be using Sun Java whenever you execute the &#8216;java&#8217; command.  You can also verify this by typing &#8216;java &#8211;version&#8217; and you should see the HotSpot mentioned, instead of the IcedTea.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Nicholas Cancelliere</span></span>
+
+      
+
+
+
+
+<time datetime="2011-04-30 22:15:00 -0500" pubdate  updated >Apr 30<span>th</span>, 2011</time>
+
+
+
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/linux-os/'>linux-os</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/" data-via="ozmox" data-counturl="http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/" >Tweet</a>
+  
+  
+  <g:plusone size="medium"></g:plusone>
+  
+</div>
+
+    
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'ozmox';
+  var disqus_identifier = 'http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/';
+  var disqus_url = 'http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/';
+  //var disqus_developer = 1;
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 

@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Nicholas' Adventures: Blog Archive</title>
+  <title>Nicholas' Adventures: Blurry Fonts on External Monitor With MacBook Pro</title>
   <meta name="author" content="Nicholas Cancelliere">
   
 
@@ -16,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="http://www.ozmox.com/blog/archives/index.html"/>
+  <link rel="canonical" href="http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -94,82 +94,98 @@
   <div id="main">
     <div id="content">
       <div>
-<article>
+<article class="hentry">
+  
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Blurry Fonts on External Monitor With MacBook Pro</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2010-08-29 22:21:00 -0500" pubdate  updated >Aug 29<span>th</span>, 2010</time>
+
+
+</p>
     
   </header>
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>I don&#8217;t know if you have the same problem as me, but when I plug my MacBook Pro into my HP w2338h monitor the fonts are not as crisp as on the laptop itself.  I found out that there&#8217;s a bug in how Mac OS X detects whether it should use font smoothing or not for certain external monitors. It&#8217;s not a problem if you&#8217;re using an Apple monitor (obviously their stuff works perfectly with their own stuff), but not all of us as so fortunate to shell out that kind of cash.</p>
 
-  
-  <h2>2011</h2>
+<p>You can easily fix this by typing the following into your command line:</p>
 
-<article>
-  
-<h1><a href="/blog/2011/08/04/pardon-the-dust/">Pardon the Dust</a></h1>
-<time datetime="2011-08-04 22:27:00 -0500" pubdate><span class='month'>Aug</span> <span class='day'>04</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/blog/'>blog</a></span>
-</footer>
+<pre>
+defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
+</pre>
 
 
-</article>
+<p>You can try int 1 to 3 (to play with various levels of font smoothing, I found 2 to work best for me).  To remove the setting just open the Appearance app (inside the Control Panel) and at the bottom you&#8217;ll see LCD font smoothing with a [-] inside, click it off and back on and it&#8217;ll show up as an [x] (and you&#8217;ll be back to where you started).</p>
 
-
-
-<article>
-  
-<h1><a href="/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/">Installing Sun (Oracle) Java 6 JRE/JDK on Ubuntu 11</a></h1>
-<time datetime="2011-04-30 22:15:00 -0500" pubdate><span class='month'>Apr</span> <span class='day'>30</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/linux-os/'>linux-os</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2010</h2>
-
-<article>
-  
-<h1><a href="/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/">Blurry Fonts on External Monitor With MacBook Pro</a></h1>
-<time datetime="2010-08-29 22:21:00 -0500" pubdate><span class='month'>Aug</span> <span class='day'>29</span> <span class='year'>2010</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/macos-x/'>macos-x</a>, <a class='category' href='/blog/categories/video/'>video</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2009</h2>
-
-<article>
-  
-<h1><a href="/blog/2009/11/15/nokogiri---cut-with-precision/">Nokogiri - Cut With Precision</a></h1>
-<time datetime="2009-11-15 22:25:00 -0600" pubdate><span class='month'>Nov</span> <span class='day'>15</span> <span class='year'>2009</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/activeresource/'>activeresource</a>, <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/xml/'>xml</a></span>
-</footer>
-
-
-</article>
-
+<p>You may have to quit and restart your application before you see the effect.  I tested it out using my terminal application since that&#8217;s something I use quite a lot and not having nice smooth fonts in it makes me cry.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Nicholas Cancelliere</span></span>
+
+      
+
+
+
+
+<time datetime="2010-08-29 22:21:00 -0500" pubdate  updated >Aug 29<span>th</span>, 2010</time>
+
+
+
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/macos-x/'>macos-x</a>, <a class='category' href='/blog/categories/video/'>video</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/" data-via="ozmox" data-counturl="http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/" >Tweet</a>
+  
+  
+  <g:plusone size="medium"></g:plusone>
+  
+</div>
+
+    
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'ozmox';
+  var disqus_identifier = 'http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/';
+  var disqus_url = 'http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/';
+  //var disqus_developer = 1;
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
