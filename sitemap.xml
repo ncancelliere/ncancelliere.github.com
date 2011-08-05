@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.ozmox.com/blog/2009/11/15/nokogiri---cut-with-precision/</loc>
+        <loc>http://ozmox.com/blog/2009/11/15/nokogiri---cut-with-precision/</loc>
         <lastmod>2011-08-04T23:01:11-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/
+            http://ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/
         </loc>
         <lastmod>2011-08-04T23:01:11-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/
+            http://ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/
         </loc>
         <lastmod>2011-08-04T23:01:11-05:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ozmox.com/blog/2011/08/04/pardon-the-dust/</loc>
+        <loc>http://ozmox.com/blog/2011/08/04/pardon-the-dust/</loc>
         <lastmod>2011-08-04T23:01:11-05:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ozmox.com/blog/archives/</loc>
+        <loc>http://ozmox.com/blog/archives/</loc>
         <lastmod>2011-08-04T23:01:11-05:00</lastmod>
     </url>
     <url>
-        <loc>http://www.ozmox.com/</loc>
+        <loc>http://ozmox.com/</loc>
         <lastmod>2011-08-04T23:01:11-05:00</lastmod>
     </url>
 </urlset>

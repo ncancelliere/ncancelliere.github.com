@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Nicholas' Adventures</title>
-  <link href="http://www.ozmox.com/atom.xml" rel="self"/>
-  <link href="http://www.ozmox.com/"/>
-  <updated>2011-08-04T23:02:10-05:00</updated>
-  <id>http://www.ozmox.com/</id>
+  <link href="http://ozmox.com/atom.xml" rel="self"/>
+  <link href="http://ozmox.com/"/>
+  <updated>2011-08-04T23:17:33-05:00</updated>
+  <id>http://ozmox.com/</id>
   <author>
     <name>Nicholas Cancelliere</name>
     
@@ -14,9 +14,9 @@
   
   <entry>
     <title>Pardon the Dust</title>
-    <link href="http://www.ozmox.com/blog/2011/08/04/pardon-the-dust/"/>
+    <link href="http://ozmox.com/blog/2011/08/04/pardon-the-dust/"/>
     <updated>2011-08-04T22:27:00-05:00</updated>
-    <id>http://www.ozmox.com/blog/2011/08/04/pardon-the-dust</id>
+    <id>http://ozmox.com/blog/2011/08/04/pardon-the-dust</id>
     <content type="html">&lt;p&gt;With the economy being what it is, etc. I decided hosting with Joyent just wasn't really worth it. They're a great cloud provider, but for small time stuff -- like my blog -- it just didn't make sense. I started with them a while back but I think they've out-grown me.&lt;/p&gt;
 
 &lt;p&gt;So I looked around for an alternative hosting provider. I like Heroku, but its read-only file system provides for some unique challenges. AWS (Amazon Web Services) are okay but can be expensive, although the first year is free. I'm already paying for a GitHub account and realized that I could just host a Jekyll website on my GitHub Pages.  So that's what I've done.&lt;/p&gt;
@@ -27,9 +27,9 @@
   
   <entry>
     <title>Installing Sun (Oracle) Java 6 JRE/JDK on Ubuntu 11</title>
-    <link href="http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/"/>
+    <link href="http://ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11/"/>
     <updated>2011-04-30T22:15:00-05:00</updated>
-    <id>http://www.ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11</id>
+    <id>http://ozmox.com/blog/2011/04/30/installing-sun-oracle-java-6-jre-jdk-on-ubuntu-11</id>
     <content type="html">&lt;p&gt;In Ubuntu 11 it's really easy to install Sun's version of Java JDK (or JRE). Why would you want to do this?  Well, personally, I have found that the OpenJDK doesn't always work quite exactly right with a lot of Java programs, so I prefer to use the Sun JDK (I guess it's Oracle now).&lt;/p&gt;
 
 &lt;p&gt;To install simply do the following from your console:&lt;/p&gt;
@@ -48,9 +48,9 @@ sudo update-alternatives --config java
   
   <entry>
     <title>Blurry Fonts on External Monitor With MacBook Pro</title>
-    <link href="http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/"/>
+    <link href="http://ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro/"/>
     <updated>2010-08-29T22:21:00-05:00</updated>
-    <id>http://www.ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro</id>
+    <id>http://ozmox.com/blog/2010/08/29/blurry-fonts-on-external-monitor-with-macbook-pro</id>
     <content type="html">&lt;p&gt;I don't know if you have the same problem as me, but when I plug my MacBook Pro into my HP w2338h monitor the fonts are not as crisp as on the laptop itself.  I found out that there's a bug in how Mac OS X detects whether it should use font smoothing or not for certain external monitors. It's not a problem if you're using an Apple monitor (obviously their stuff works perfectly with their own stuff), but not all of us as so fortunate to shell out that kind of cash.&lt;/p&gt;
 
 &lt;p&gt;You can easily fix this by typing the following into your command line:&lt;/p&gt;
@@ -68,9 +68,9 @@ defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
   
   <entry>
     <title>Nokogiri - Cut With Precision</title>
-    <link href="http://www.ozmox.com/blog/2009/11/15/nokogiri---cut-with-precision/"/>
+    <link href="http://ozmox.com/blog/2009/11/15/nokogiri---cut-with-precision/"/>
     <updated>2009-11-15T22:25:00-06:00</updated>
-    <id>http://www.ozmox.com/blog/2009/11/15/nokogiri---cut-with-precision</id>
+    <id>http://ozmox.com/blog/2009/11/15/nokogiri---cut-with-precision</id>
     <content type="html">&lt;p&gt;Many times we as developers have to deal with complex data, be it an ActiveResource result set or a HTML/XML document.  Trying to parse data out of these using for each and nesting loops within loops can be cumbersome.  A more elegant solution is to use nokogiri and xpath.&lt;/p&gt;
 
 &lt;p&gt;Nokogiri is a type of Japanese saw, it also is a gem in Ruby that you can use to easily deal with XML or HTML documents.  (hint, ActiveRecord and ActiveResource objects both have to_xml methods).  You can easily install nokogiri (make sure you have libxml2 development packages installed, as the gem requires these to be properly built).&lt;/p&gt;
