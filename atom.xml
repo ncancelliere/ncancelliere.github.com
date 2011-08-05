@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Nicholas' Adventures</title>
+  <link href="http://www.ozmox.com/atom.xml" rel="self"/>
+  <link href="http://www.ozmox.com/"/>
+  <updated>2011-08-04T21:59:34-05:00</updated>
+  <id>http://www.ozmox.com/</id>
+  <author>
+    <name>Nicholas Cancelliere</name>
+    
+  </author>
+
+  
+</feed>
