@@ -4,7 +4,7 @@
   <title>Nicholas' Adventures</title>
   <link href="http://ozmox.com/atom.xml" rel="self"/>
   <link href="http://ozmox.com/"/>
-  <updated>2011-08-14T08:44:39-05:00</updated>
+  <updated>2011-08-14T16:39:05-05:00</updated>
   <id>http://ozmox.com/</id>
   <author>
     <name>Nicholas Cancelliere</name>
@@ -41,7 +41,7 @@
 
 &lt;h3&gt;More Women&lt;/h3&gt;
 
-&lt;p&gt;I think this is the first LSRC where I've actually &lt;em&gt;noticed&lt;/em&gt; women. Now if you personally know me I probably just made your chuckle. What I mean by this though is that traditionally in the IT and programming space women are scarcely seen. Female programmers especially are a very rare breed. So it was really refreshing to see so many women this year.&lt;/p&gt;
+&lt;p&gt;I think this is the first LSRC where I've actually &lt;em&gt;noticed&lt;/em&gt; women. Now if you personally know me I probably just made your chuckle. What I mean by this though is that traditionally in the IT and programming space women are scarcely seen. Female programmers especially are a very rare breed. So it was really refreshing to see more women this year.&lt;/p&gt;
 
 &lt;p&gt;Women and minorities, in general, are poorly represented in our industry I think. It's good to see this trend slowly changing, but it still has a long way to go.&lt;/p&gt;
 
@@ -51,9 +51,9 @@
 
 &lt;h3&gt;Javascript&lt;/h3&gt;
 
-&lt;p&gt;You go to a Ruby conference to talk about Ruby right? Well JavaScript had quite a few talks. Why? Well I think everyone is coming to the conclusion that you can't ignore JavaScript.&lt;/p&gt;
+&lt;p&gt;You go to a Ruby conference to talk about Ruby right? Well JavaScript had quite a few talks. Why? I think everyone is coming to the conclusion that you can't ignore JavaScript.&lt;/p&gt;
 
-&lt;p&gt;There was a lot of debate about CoffeeScript and pure JavaScript. Should I bother to learn JavaScript, it's so clunky, when I can just learn CoffeeScript? Coffee script is so much nicer to write, more elegant to read, etc.&lt;/p&gt;
+&lt;p&gt;There was a lot of debate about CoffeeScript and pure JavaScript. Should I bother to learn JavaScript, it's so clunky, when I can just learn CoffeeScript? CoffeeScript is so much nicer to write, more elegant to read, etc.&lt;/p&gt;
 
 &lt;p&gt;Until CoffeeScript is more widely adopted we're all going to have to know JavaScript. JavaScript libraries are not written in CoffeeScript, so if you want to know how they work -- you're going to need to know how JavaScript works. Same with debugging. Since CoffeeScript writes JavaScript, debugging code in your browser means you're doing it by reading the JavaScript CoffeeScript produced.&lt;/p&gt;
 
@@ -61,7 +61,7 @@
 
 &lt;h3&gt;Ruby&lt;/h3&gt;
 
-&lt;p&gt;Lastly, Ruby is an amazing language. Going to a Ruby conference you'd expect to come away with this, right? Well the one thing that particuarlly impressed upon me was the pervasiveness of Ruby in the Cloud.  Rackspace, CloudFoundry, Engine Yard and Heroku are very Ruby centric. Marc Benioff tweeted &quot;Ruby is the language of the cloud.&quot; I'm starting to understand why he said that.&lt;/p&gt;
+&lt;p&gt;Lastly, Ruby is an amazing language. Going to a Ruby conference you'd expect to come away with this, right? The one thing that particuarlly impressed upon me was the pervasiveness of Ruby in the Cloud.  Rackspace, CloudFoundry, Engine Yard and Heroku are very Ruby centric. Marc Benioff tweeted &quot;Ruby is the language of the cloud.&quot; I'm starting to understand why he said that.&lt;/p&gt;
 </content>
   </entry>
   
