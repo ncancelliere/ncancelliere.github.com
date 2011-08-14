@@ -4,13 +4,66 @@
   <title>Nicholas' Adventures</title>
   <link href="http://ozmox.com/atom.xml" rel="self"/>
   <link href="http://ozmox.com/"/>
-  <updated>2011-08-04T23:17:33-05:00</updated>
+  <updated>2011-08-14T08:38:18-05:00</updated>
   <id>http://ozmox.com/</id>
   <author>
     <name>Nicholas Cancelliere</name>
     
   </author>
 
+  
+  <entry>
+    <title>LSRC 2011 Summary</title>
+    <link href="http://ozmox.com/blog/2011/08/14/lsrc-2011-summary/"/>
+    <updated>2011-08-14T07:34:00-05:00</updated>
+    <id>http://ozmox.com/blog/2011/08/14/lsrc-2011-summary</id>
+    <content type="html">&lt;h2&gt;Opening Keynote&lt;/h2&gt;
+
+&lt;p&gt;James Edward Gray II gave this year's keynote. As expected it was a great presentation. (I have seen two other presentations of his in the past and they were both excellent.) James has a unique way of taking his own personal experiences and turning them into general life lessons. Two lessons presented in his keynote were: what is a keynote, and why do women put cabbage leaves on their breasts?&lt;/p&gt;
+
+&lt;p&gt;While James had nearly everyone's attention talking about breasts and showing images of cabbage, we get an introduction (or re-introduction) to the scientific method and critical thinking.  &quot;Question, think critically and search for evidence,&quot; James explained. He ends his presentation asking that we bring the science back into comptuer science.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/JamesEdwardGrayII/a-dickens-of-a-keynote&quot; title=&quot;A Dickens of a Keynote&quot;&gt;A Dickens of a Keynote&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Be Skeptical, Not Cynical&lt;/h2&gt;
+
+&lt;p&gt;A skeptic doesn't believe anything simply because someone declairs something true, or it's popular, etc. However, unlike a cynic (who will always disbelieve something), skeptics form beliefs based on evidence. Cynics are those chronic complainers, you know the people who say &quot;woes me the world is against me.&quot; They rashly judge, are quick to complain and never offer solutions of their own.&lt;/p&gt;
+
+&lt;p&gt;Chad Fowler in the closing address set forth cyniscim as lazy, cowardly and weak.  He spoke about the idea that everyone has customers (people you serve) and that we should all strive to providing the best customer experiences.&lt;/p&gt;
+
+&lt;p&gt;My personal war against cynicism can be found in my long-running Gmail signature:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&quot;I always wondered why somebody doesn't do something about that. Then I realized I was somebody.” --Lily Tomlin&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;Summary and Trends&lt;/h2&gt;
+
+&lt;p&gt;This LSRC I enjoyed more the an the one last year. I think the topics were more relavent and fresh. There were also some really good presenters, many of them local Austinites. I noticed a few trends...&lt;/p&gt;
+
+&lt;h3&gt;More Women&lt;/h3&gt;
+
+&lt;p&gt;I think this is the first LSRC where I've actually &lt;em&gt;noticed&lt;/em&gt; women. Now if you personally know me I probably just made your chuckle. What I mean by this though is that traditionally in the IT and programming space women are scarcely seen. Female programmers especially are a very rare breed. So it was really refreshing to see so many women this year.&lt;/p&gt;
+
+&lt;p&gt;Women and minorities, in general, are poorly represented in our industry I think. It's good to see this trend slowly changing, but it still has a long way to go.&lt;/p&gt;
+
+&lt;h3&gt;Linux Laptops&lt;/h3&gt;
+
+&lt;p&gt;At any Ruby related conference you're pretty much going to see Macbook Pros. If you bring a Windows PC you're going to be the brunt of jokes at the table, just be ready. This year I saw a few more PC laptops than in the past, but they weren't running Windows. Instead they were running Ubuntu Linux. While I didn't actually walk up to people and ask, they were running them on metal not VMs. (I decided this because many were using compbiz animation features which typically are not possible inside a VM.)  So this is a trend to pay attnetion to, maybe.&lt;/p&gt;
+
+&lt;h3&gt;Javascript&lt;/h3&gt;
+
+&lt;p&gt;You go to a Ruby conference to talk about Ruby right? Well JavaScript had quite a few talks. Why? Well I think everyone is coming to the conclusion that you can't ignore JavaScript.&lt;/p&gt;
+
+&lt;p&gt;There was a lot of debate about CoffeeScript and pure JavaScript. Should I bother to learn JavaScript, it's so clunky, when I can just learn CoffeeScript? Coffee script is so much nicer to write, more elegant to read, etc.&lt;/p&gt;
+
+&lt;p&gt;Until CoffeeScript is more widely adopted we're all going to have to know JavaScript. JavaScript libraries are not written in CoffeeScript, so if you want to know how they work -- you're going to need to know how JavaScript works. Same with debugging. Since CoffeeScript writes JavaScript, debugging code in your browser means you're doing it by reading the JavaScript CoffeeScript produced.&lt;/p&gt;
+
+&lt;p&gt;I agree in a perfect world we should just learn CoffeeScript and be happy. The world isn't perfect.&lt;/p&gt;
+
+&lt;h3&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;Lastly, Ruby is an amazing language. Going to a Ruby conference you'd expect to come away with this, right? Well the one thing that particuarlly impressed upon me was the pervasiveness of Ruby in the Cloud.  Rackspace, CloudFoundry Engine Yard and Heroku are very Ruby centric. Marc Benioff tweeted &quot;Ruby is the language of the cloud.&quot; I'm starting to understand why he said that.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Pardon the Dust</title>
