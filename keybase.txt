@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/ncancelliere
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.ozmox.com
+  * I am ncancelliere (https://keybase.io/ncancelliere) on keybase.
+  * I have a public key with fingerprint 4718 46FF D958 EBD0 955B  7357 954E B9DC 94EB 8EBC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "471846ffd958ebd0955b7357954eb9dc94eb8ebc",
+            "host": "keybase.io",
+            "key_id": "954eb9dc94eb8ebc",
+            "kid": "010168b0a171e100e3480b8fc4711bac240b5753999f02ca352580647d3bac18ae090a",
+            "uid": "5c207655ac3740625adfe64c7dc4d719",
+            "username": "ncancelliere"
+        },
+        "service": {
+            "hostname": "www.ozmox.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434659863,
+    "expire_in": 157680000,
+    "prev": "b946006c1f0f1e5c0aa501affd9416bfd88f462fdc618b2a7983186a4577b7a3",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIiAnicbZJdSBVBFMdX01LB0ggk6Mvtg4KLzNzdmdm9SqWZJAmm9KGg3WZnZ3VT
+d2/3XvXexMKkF1/qJezDJPoAk9KKMkIfMiQDKyqyQsqCCqIwKMIiipoVe2tehpn/
+//zOnDNnJH2OlJaQUHZvabH0YChhbHhzo7Sj3ZfVIhuuGZcDLXIdn9ks26nh4VDY
+dqJyQFYJ1FRsWaaONG6YQEfIIAoiOlK5oZtMF5sQmOyTa92IFyEwBo3wHNsVd+IQ
+tE1x+x9/3YwAIIBYMwCFBHIIAFdUDRiaxURmaFDmV4GBCFJ0XbeAn1EF+ZEGsEpM
+RahQoxzogApc4wwOMT8gGCHKFKIC7EfUtDhWGTGZahKoe8YIDzu0gQu3w6jDeH29
+zcNcbvXJQmmyGffa4FUz62pubs5x9ze4sRzmNghAKOxGXebWC6k2Gg0FvMhoPDRj
+5UZwFhI0bMcUvRQBTTwcsV1HDkDhZFHbo0JVUTHSNaz4ZB4L2WEetD0HIlgDYnlp
+eJNAGrqKAcAMWsCCHDFAKQKQel+iQmxYpqZZKvZbJsNQM/yU6JoCNUxVRIhBqCJ7
+Ze1zXDmgi2fSGoGM2DUOjTZ6Nd+5XZUkJaRJc5MTvWmQ0lIz/s1I18IU6Vlb1cWV
+xcHewNnC6od7u7MPmCv0stI4+743a3TwTZdcc/T85btXshacaHn21SC+I9ddaeJp
++vPisXXZ/a8ypl9Ov8vN7Knuay+49nvTrrV5J5v6nG8bukcDvxa3nlv+/vP5Lz9H
+zJ1ntuUP2f17rl4/PTFBflfu74t3pnfjxNX1t4pKEifnxzo+jj+3TtnlF3rKn6Ze
+Ov5msP/XYBDHnxQ9YktudhQPrFrmn3yclHJw7NCX6ta8H6Gpj5m9xx5W7DjcVjc1
+XeWMl15t+VRSkbEoJTOpcOOf4Q+5IDac//lyQSoZWL81/vrHyljlizXbQ7vX1zYH
+X6D7c5K3dN6YzH27QDo37y94+SaM
+=WJU+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ncancelliere
+
+==================================================================
